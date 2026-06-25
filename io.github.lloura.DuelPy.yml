@@ -1,23 +1,13 @@
 app-id: io.github.lloura.DuelPy
 runtime: org.gnome.Platform
-runtime-version: '49'
+runtime-version: '50'
 sdk: org.gnome.Sdk
 command: duelpy
-
 finish-args:
   - --socket=wayland
   - --socket=fallback-x11
   - --share=ipc
   - --device=dri
-
-cleanup:
-  - /include
-  - /lib/pkgconfig
-  - /share/pkgconfig
-  - /share/man
-  - "*.la"
-  - "*.a"
-
 modules:
   - name: duelpy
     buildsystem: meson
