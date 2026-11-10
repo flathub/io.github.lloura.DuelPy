@@ -1,6 +1,6 @@
 app-id: io.github.lloura.DuelPy
 runtime: org.gnome.Platform
-runtime-version: '50'
+runtime-version: '51'
 sdk: org.gnome.Sdk
 command: duelpy
 
@@ -24,5 +24,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/lloura/DuelPy.git
-        tag: 50.0
-        commit: 895509f4962bbcac4a01c2becd78a1fc6aca4a44
+        tag: 51.0
+        commit: 1d65835f603aed4f10d2e976d2cbd587cedea60a
